@@ -1,0 +1,27 @@
+{
+  "name": "vue-touch2",
+  "version": "0.1.0",
+  "main": "vue-touch2.js",
+  "files": [
+    "vue-touch2.js"
+  ],
+  "description": "Tocca.js based touch events plugin for Vue.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilesa/vue-touch2.git"
+  },
+  "bugs": "https://github.com/gilesa/vue-touch2/issues",
+  "dependencies": {
+    "tocca": "^1.0.1"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.3",
+    "vue": "^1.0.28",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "build": "webpack example/example.js example/example.build.js && uglifyjs vue-touch2.js -c -m > vue-touch2.min.js",
+    "dev": "webpack --watch example/example.js example/example.build.js"
+  }
+}
