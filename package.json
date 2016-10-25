@@ -13,7 +13,7 @@
   },
   "bugs": "https://github.com/gilesa/vue-touch2/issues",
   "dependencies": {
-    "tocca": "^1.0.1"
+    "tocca": "^1.1.0"
   },
   "devDependencies": {
     "uglify-js": "^2.7.3",
